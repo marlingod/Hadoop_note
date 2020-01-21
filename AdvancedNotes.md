@@ -160,3 +160,8 @@ Invenroty the vcores and memory and disks
   - based on the worker node profile determined above
   - Determine the number of containers needed to best support YARN applications based on the type of workload
   monitor usage and tune estimaed values to find optimal settings
+
+  From Cloudera Training
+
+  Fixing git Issues
+  https://codewithhugo.com/fix-git-failed-to-push-updates-were-rejected/
