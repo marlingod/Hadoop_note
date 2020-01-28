@@ -15,4 +15,10 @@ it should deadline. It is deadline (default) in Rhel 7 and onward but
 cfq or noop for 6 and below
 
 ### Check the networks
-###
+Using iperf
+* to check the connectivity between 2 servers
+  * on serverA
+  ```iperf - s -p 2000```
+  
+  * on server B
+  ```iperf -c serverA -p 2000 -n 10000M```
