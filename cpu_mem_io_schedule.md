@@ -58,3 +58,16 @@ Also, the noop I/O scheduler is commonly, but not exclusively, used on virtual m
 
 Notes  from
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/performance_tuning_guide/chap-red_hat_enterprise_linux-performance_tuning_guide-storage_and_file_systems#sect-Red_Hat_Enterprise_Linux-Performance_Tuning_Guide-Considerations-IO_Schedulers
+
+
+### Tools for monitoring
+#### top
+ It can display a variety of information, including a system summary and a list of tasks currently being managed by the Linux kernel.By default, the processes displayed are ordered according to the percentage of CPU usage
+#### ps
+The ps tool, provided by the procps-ng package, takes a snapshot of a select group of active processes. By default, the group examined is limited to processes that are owned by the current user and associated with the terminal in which ps is run
+#### vmstat
+The Virtual Memory Statistics tool, vmstat, provides instant reports on your system's processes, memory, paging, block input/output, interrupts, and CPU activity. Vmstat lets you set a sampling interval so that you can observe system activity in near-real time.
+#### iostat
+The iostat tool, provided by the sysstat package, monitors and reports on system input/output device loading to help administrators make decisions about how to balance input/output load between physical disks. The iostat tool reports on processor or device utilization since iostat was last run, or since boot
+
+#### TODO (TUNED)
