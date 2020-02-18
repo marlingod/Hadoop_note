@@ -172,5 +172,20 @@ Inventory the vcores and memory and disks
 * mapreduce.reduce.java.opts = mapreduce.job.heap.memory-mb.ratio * mapreduce.reduce.memory.mb
 * yarn.app.mapreduce.am.command-opts = mapreduce.job.heap.memory-mb.ratio * yarn.app.mapreduce.am.resource.mb
 
+Example:
+-Dmapreduce.map.memory.mb=6144
+-Dmapreduce.map.java.opts=-Xmx4096m
+-Dmapreduce.reduce.memory.mb=6144
+-Dmapreduce.reduce.java.opts=-Xmx4096m
+-Dyarn.app.mapreduce.am.resource.mb=6144
+-Dyarn.app.mapreduce.am.command-opts=-Xmx4096m
+
+for hive queries. this can be set to
+SET mapreduce.map.memory.mb=6144
+SET mapreduce.map.java.opts=-Xmx4096M
+SET mapreduce.reduce.memory.mb=6144
+SET mapreduce.reduce.java.opts=-Xmx4096M
+
+
   Fixing git Issues
   https://codewithhugo.com/fix-git-failed-to-push-updates-were-rejected/
