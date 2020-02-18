@@ -188,6 +188,11 @@ SET mapreduce.map.java.opts=-Xmx4096M
 SET mapreduce.reduce.memory.mb=6144
 SET mapreduce.reduce.java.opts=-Xmx4096M
 ```
+* mapreduce.map.java.opts:  -Djava.net.preferIPv4Stack=true -Xmx4096M (in cloudera manager)
+
+some documentations
+https://docs.cloudera.com/HDPDocuments/HDP2/HDP-2.1.5/bk_installing_manually_book/content/rpm-chap1-11.html
+
 
   Fixing git Issues
   https://codewithhugo.com/fix-git-failed-to-push-updates-were-rejected/
